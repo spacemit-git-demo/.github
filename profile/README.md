@@ -79,7 +79,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
         </tr>
         <tr>
           <td align="center" bgcolor="#5B9BD5">
-            <b>Learning Kit</b>
+            <b>Development Kit</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-asr">ASR</a>/<a href="https://github.com/spacemit-com/model-zoo-tts">TTS</a></td>
