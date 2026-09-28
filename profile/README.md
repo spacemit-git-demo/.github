@@ -57,7 +57,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
 ## AI Robot Software Package
 
 <!-- HTML 表格还原分层框架：每个白色方框可点击跳转到对应仓库 README -->
-<!-- 分层配色：Solutions=绿 / Bianbu ROS2、Bianbu OS、Kernel=蓝 / HW=浅蓝 -->
+<!-- 分层配色：Solutions=绿 /  ROS2、 OS、Kernel=蓝 / HW=浅蓝 -->
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
     </td>
   </tr>
   <tr>
-    <td align="center" valign="middle" width="90"><b>Bianbu<br/>ROS2</b></td>
+    <td align="center" valign="middle" width="90"><b>Robot<br/>ROS2</b></td>
     <td>
       <table width="100%">
         <tr>
@@ -121,7 +121,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
     </td>
   </tr>
   <tr>
-    <td align="center" valign="middle" width="90"><b>Bianbu OS</b></td>
+    <td align="center" valign="middle" width="90"><b>Robot OS</b></td>
     <td>
       <table width="100%">
         <tr>
@@ -134,7 +134,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
             </table>
           </td>
           <td align="center" valign="top" bgcolor="#5B9BD5">
-            <b>AI Robot JDK</b>
+            <b>AI Robot SDK</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">Model Zoo</a></td>
@@ -142,14 +142,14 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
                 <td align="center" bgcolor="#FFFFFF">video pipeline</td>
               </tr>
               <tr>
-                <td align="center" bgcolor="#FFFFFF">JDK-Display</td>
-                <td align="center" bgcolor="#FFFFFF">JDK-G2D</td>
-                <td align="center" bgcolor="#FFFFFF">JDK-Frame</td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-cam">JDK-CAM</a></td>
+                <td align="center" bgcolor="#FFFFFF">SDK-Display</td>
+                <td align="center" bgcolor="#FFFFFF">SDK-G2D</td>
+                <td align="center" bgcolor="#FFFFFF">SDK-Frame</td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-cam">SDK-CAM</a></td>
               </tr>
               <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/ai-sdk">JDK-INF</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-jpu">JDK-Codec</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/ai-sdk">SDK-INF</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-jpu">SDK-Codec</a></td>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/opencv/opencv">openCV*</a></td>
               </tr>
               <tr>
