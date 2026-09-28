@@ -40,13 +40,6 @@ Think of it as a Raspberry Pi-class board that runs LLMs and vision models nativ
 - Agentic loops with tool use via OpenAI-compatible API
 - Multi-modal applications combining all of the above
 
-**Start building →**
-
-```sh
-# Flash Ubuntu, then:
-git clone --recurse-submodules https://github.com/spacemit-com/ai-sdk
-cd ai-sdk && source build/envsetup.sh && m
-```
 
 ---
 
