@@ -134,7 +134,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
             </table>
           </td>
           <td align="center" valign="top" bgcolor="#5B9BD5">
-            <b>Bianbu JDK</b>
+            <b>AI Robot JDK</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">Model Zoo</a></td>
