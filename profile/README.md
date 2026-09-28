@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn-resource.spacemit.com/file/officialweb/assets/logo_white.svg" width="700" alt="SpacemiT logo" />
+<img src="https://cdn-resource.spacemit.com/file/officialweb/assets/logo_white.svg" width="300" alt="SpacemiT logo" />
 
 # SpacemiT
 
@@ -88,34 +88,4 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
 
 </details>
 
----
 
-## Contributing
-
-- **Report a bug** — include chip (K1/K3), OS, kernel version (`uname -a`), and `dmesg` output. Each repo has its own issue tracker.
-- **Fix the docs** — all `docs-*` repos accept PRs directly.
-- **Contribute code** — check open issues first; build instructions are in each repo's README.
-- **Propose a large change** — open a thread on the [forum](https://forum.spacemit.com) before writing code, so we can agree on the approach.
-- **Security issues** — email [developer@spacemit.com](mailto:developer@spacemit.com) privately. Please don't open a public issue for vulnerabilities.
-
----
-
-## Community
-
-| | |
-|---|---|
-| Forum | [forum.spacemit.com](https://forum.spacemit.com) |
-| X | [@spacemit_riscv](https://x.com/spacemit_riscv) |
-| Reddit | [r/spacemit_riscv](https://www.reddit.com/r/spacemit_riscv/) |
-| WeChat | [Join info](https://forum.spacemit.com/t/topic/942/5) |
-| Developer | [developer@spacemit.com](mailto:developer@spacemit.com) |
-| Business | [business@spacemit.com](mailto:business@spacemit.com) |
-| Downloads | [archive.spacemit.com](https://archive.spacemit.com/) |
-
----
-
-<div align="center">
-
-*Upstream status updated monthly. Last update: 2026-09-09.*
-
-</div>
