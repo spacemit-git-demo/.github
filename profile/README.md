@@ -209,7 +209,3 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
   </tr>
 </table>
 
-<sub>带 * 的为上游社区链接占位（CANopenNode / EtherLab IGH / open62541 / Fast-DDS / OpenCV / Eigen / OpenAMP），内部仓库就绪后替换为对应 spacemit-com / spacemit-robotics 仓库地址。</sub>
-
-<sub>待补充内部仓库链接的方框：ros2_ethercat、ros_canopen、video pipeline、SDK-Display、SDK-G2D、SDK-Frame、EtherCAT master device Driver、RTOS、RTOS Driver。</sub>
-
