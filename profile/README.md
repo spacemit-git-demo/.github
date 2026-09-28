@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://cdn-resource.spacemit.com/file/officialweb/assets/logo_white.svg" width="300" alt="SpacemiT logo" />
-
+<img src="https://files.seeusercontent.com/2026/09/28/7aSv/logosquare1.png" alt="SpacemiT logo" title="logo.square1.png">
 
 **RISC-V chips for AI at the edge.**
 
