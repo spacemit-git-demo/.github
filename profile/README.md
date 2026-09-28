@@ -65,25 +65,25 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
       <table width="100%">
         <tr>
           <td align="center" bgcolor="#7CB88D">
-            <b>集成应用（仿真 + 产品）</b>
+            <b>Application（Product + Simulation）</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_nav2">AMR</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/uav">无人机</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_unitree_go1">机器狗</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_arm">工业机器人</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_common">人形机器人</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/uav">UAV</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_unitree_go1">Robot Dog</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_arm">Industrial Robot</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_common">Humanoid Robot</a></td>
               </tr>
             </table>
           </td>
         </tr>
         <tr>
           <td align="center" bgcolor="#5B9BD5">
-            <b>学习套件</b>
+            <b>Learning Kit</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-asr">ASR</a>/<a href="https://github.com/spacemit-com/model-zoo-tts">TTS</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">AI 视觉</a></td>
+                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">AI Vision</a></td>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-llm">LLM</a></td>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_orbslam3_run">VSLAM</a></td>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics">Demo Zoo</a></td>
