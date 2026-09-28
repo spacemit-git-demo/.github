@@ -103,11 +103,11 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td align="center" valign="middle" width="90"><b>Bianbu<br/>ROS2</b></td>
+    <td>
       <table width="100%">
         <tr>
           <td align="center" bgcolor="#5B9BD5">
-            <b>Bianbu ROS2</b>
             <table width="100%">
               <tr>
                 <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/control_base">ros2_control</a></td>
@@ -228,30 +228,5 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
 <sub>带 * 的为上游社区链接占位（CANopenNode / EtherLab IGH / open62541 / Fast-DDS / OpenCV / Eigen / OpenAMP），内部仓库就绪后替换为对应 spacemit-com / spacemit-robotics 仓库地址。</sub>
 
 <sub>待补充内部仓库链接的方框：ros2_ethercat、ros_canopen、video pipeline、JDK-Display、JDK-G2D、JDK-Frame、EtherCAT master device Driver、RTOS、RTOS Driver。</sub>
-
-
-
-
-
-
-> Source code lives in the [spacemit-robotics](https://github.com/spacemit-robotics) organization. All projects run on K3 and use the `ai-sdk` stack.
-
-| Project | What it does | Status |
-|---|---|---|
-| [Reachy Mini](https://github.com/spacemit-robotics/reachy_mini) | Desktop companion robot — vision follow, voice interaction, dance choreography | Demo ready |
-| [Linksee](https://github.com/spacemit-robotics/linksee) | Wheeled mobile robot — SLAM, autonomous navigation, obstacle avoidance | Demo ready |
-| [LeRobot App](https://github.com/spacemit-robotics/lerobot_app) | SO101 arm — ACT / SmolVLA policies, local inference on K3, simulation-ready | Demo + sim ready |
-| [Humanoid](https://github.com/spacemit-robotics/humanoid_unitree_g1) | Humanoid control — MuJoCo, RL policy inference on K3 | Validation |
-
-
-| Repository | Covers |
-|---|---|
-| [docs-chip](https://github.com/spacemit-com/docs-chip) | K-series chip reference: registers, peripherals, clocks |
-| [docs-ai](https://github.com/spacemit-com/docs-ai) | AI SDK and inference documentation |
-| [docs-product](https://github.com/spacemit-com/docs-product) | Product datasheets and overviews |
-| [docs-openharmony](https://github.com/spacemit-com/docs-openharmony) | OpenHarmony on K-series |
-| [bianbu-docs](https://github.com/spacemit-com/bianbu-docs) | Bianbu OS — EN and ZH |
-
-</details>
 
 
