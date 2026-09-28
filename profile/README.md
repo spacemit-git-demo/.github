@@ -54,7 +54,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
 - Humanoid whole-body control via RL inference
 - MuJoCo simulation → real K3 hardware deployment
 
-## Bianbu Robot SDK 分层架构
+## AI Robot Software Package
 
 <!-- HTML 表格还原分层框架：每个白色方框可点击跳转到对应仓库 README -->
 <!-- 分层配色：Solutions=绿 / Bianbu ROS2、Bianbu OS、Kernel=蓝 / HW=浅蓝 -->
