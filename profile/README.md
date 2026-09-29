@@ -53,168 +53,151 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
 - Humanoid whole-body control via RL inference
 - MuJoCo simulation → real K3 hardware deployment
 
-## AI Robot SDK
+# AI Robot Software Package
 
-<!-- HTML 表格还原分层框架：每个白色方框可点击跳转到对应仓库 README -->
-<!-- 分层配色：Solutions=绿 / Robot ROS2、Robot OS、Kernel=蓝 / HW=浅蓝 -->
+## System Architecture
 
 <table>
   <tr>
-    <td align="center" valign="middle" width="90"><b>Solutions</b></td>
+    <th width="120">Layer</th>
+    <th>Components</th>
+  </tr>
+  
+  <!-- Solutions Layer -->
+  <tr>
+    <td align="center"><strong>Solutions</strong></td>
     <td>
       <table width="100%">
         <tr>
-          <td align="center" bgcolor="#7CB88D">
-            <b>Application（Product + Simulation）</b>
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_nav2">AMR</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/uav">UAV</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_unitree_go1">Robot Dog</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_arm">Industrial Robot</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/humanoid_common">Humanoid Robot</a></td>
-              </tr>
-            </table>
-          </td>
+          <td colspan="5" align="center"><strong>Integrated Applications (Simulation + Products)</strong></td>
         </tr>
         <tr>
-          <td align="center" bgcolor="#5B9BD5">
-            <b>Development Kit</b>
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-asr">ASR</a>/<a href="https://github.com/spacemit-com/model-zoo-tts">TTS</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">AI Vision</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-llm">LLM</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_orbslam3_run">VSLAM</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics">Demo Zoo</a></td>
-              </tr>
-            </table>
-          </td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/ros2_nav2">AMR</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/uav">UAV</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/humanoid_unitree_go1">Robot Dog</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/ros2_arm">Industrial Robot</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/humanoid_common">Humanoid</a></td>
+        </tr>
+        <tr>
+          <td colspan="5" align="center"><strong>Learning Kits</strong></td>
+        </tr>
+        <tr>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-com/model-zoo-asr">ASR</a> / <a href="https://github.com/spacemit-com/model-zoo-tts">TTS</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-com/model-zoo-vision">AI Vision</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-com/model-zoo-llm">LLM</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics/ros2_orbslam3_run">VSLAM</a></td>
+          <td width="20%" align="center"><a href="https://github.com/spacemit-robotics">Demo Zoo</a></td>
         </tr>
       </table>
     </td>
   </tr>
+  
+  <!-- Robot ROS2 Layer -->
   <tr>
-    <td align="center" valign="middle" width="90"><b>Robot<br/>ROS2</b></td>
+    <td align="center"><strong>Robot ROS2</strong></td>
     <td>
       <table width="100%">
         <tr>
-          <td align="center" bgcolor="#5B9BD5">
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/control_base">ros2_control</a></td>
-                <td align="center" bgcolor="#FFFFFF">ros2_ethercat</td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_simulation">ros_sim</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/brdk-doc">ros_brdk</a></td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/ros2_base">ros_base</a></td>
-                <td align="center" bgcolor="#FFFFFF">ros_canopen</td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/eProsima/Fast-DDS">RT DDS*</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/v2d-test">2D ACC</a></td>
-              </tr>
-            </table>
-          </td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-robotics/control_base">ros2_control</a></td>
+          <td width="25%" align="center">ros2_ethercat</td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-robotics/ros2_simulation">ros_sim</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/brdk-doc">ros_brdk</a></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-robotics/ros2_base">ros_base</a></td>
+          <td width="25%" align="center">ros_canopen</td>
+          <td width="25%" align="center"><a href="https://github.com/eProsima/Fast-DDS">RT DDS</a> *</td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/v2d-test">2D ACC</a></td>
         </tr>
       </table>
     </td>
   </tr>
+  
+  <!-- Robot OS Layer -->
   <tr>
-    <td align="center" valign="middle" width="90"><b>Robot OS</b></td>
+    <td align="center"><strong>Robot OS</strong></td>
     <td>
       <table width="100%">
         <tr>
-          <td align="center" valign="top" width="34%" bgcolor="#5B9BD5">
-            <b>Protocol</b>
-            <table width="100%">
-              <tr><td align="center" bgcolor="#FFFFFF"><a href="https://github.com/CANopenNode/CANopenNode">CANOpen*</a></td></tr>
-              <tr><td align="center" bgcolor="#FFFFFF"><a href="https://gitlab.com/etherlab.org/ethercat">IGH EtherCAT master*</a></td></tr>
-              <tr><td align="center" bgcolor="#FFFFFF"><a href="https://github.com/open62541/open62541">OPC-UA pub/sub*</a></td></tr>
-            </table>
-          </td>
-          <td align="center" valign="top" bgcolor="#5B9BD5">
-            <b>Robot SDK</b>
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/model-zoo-vision">Model Zoo</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-robotics/audio_process">audio pipeline</a></td>
-                <td align="center" bgcolor="#FFFFFF">video pipeline</td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF">SDK-Display</td>
-                <td align="center" bgcolor="#FFFFFF">SDK-G2D</td>
-                <td align="center" bgcolor="#FFFFFF">SDK-Frame</td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-cam">SDK-CAM</a></td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/ai-sdk">SDK-INF</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/k1x-jpu">SDK-Codec</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/opencv/opencv">openCV*</a></td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/onnxruntime">ONX runtime</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/mpp">MPP</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://gitlab.com/libeigen/eigen">Eigen*</a></td>
-              </tr>
-            </table>
-          </td>
+          <td width="25%" align="center"><strong>Protocol Stack</strong></td>
+          <td width="75%" colspan="3" align="center"><strong>AI Robot SDK</strong></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><a href="https://github.com/CANopenNode/CANopenNode">CANOpen</a> *</td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/model-zoo-vision">Model Zoo</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-robotics/audio_process">Audio Pipeline</a></td>
+          <td width="25%" align="center">Video Pipeline</td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><a href="https://gitlab.com/etherlab.org/ethercat">IGH EtherCAT</a> *</td>
+          <td width="25%" align="center">SDK-Display</td>
+          <td width="25%" align="center">SDK-G2D</td>
+          <td width="25%" align="center">SDK-Frame</td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><a href="https://github.com/open62541/open62541">OPC-UA pub/sub</a> *</td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/k1x-cam">SDK-CAM</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/ai-sdk">SDK-INF</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/k1x-jpu">SDK-Codec</a></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"></td>
+          <td width="25%" align="center"><a href="https://github.com/opencv/opencv">OpenCV</a> *</td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/onnxruntime">ONNX Runtime</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/mpp">MPP</a></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"></td>
+          <td width="25%" align="center"><a href="https://gitlab.com/libeigen/eigen">Eigen</a> *</td>
+          <td width="25%" align="center"></td>
+          <td width="25%" align="center"></td>
         </tr>
       </table>
     </td>
   </tr>
+  
+  <!-- Kernel Space Layer -->
   <tr>
-    <td align="center" valign="middle" width="90"><b>Kernel<br/>space</b></td>
+    <td align="center"><strong>Kernel Space</strong></td>
     <td>
       <table width="100%">
         <tr>
-          <td align="center" valign="top" width="34%" bgcolor="#5B9BD5">
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/linux">RS485</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/linux">Modbus</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/linux">CAN-FD</a></td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF" colspan="3">EtherCAT master device Driver</td>
-              </tr>
-            </table>
-          </td>
-          <td align="center" valign="top" bgcolor="#5B9BD5">
-            <table width="100%">
-              <tr>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/spacemit-com/linux">Linux</a></td>
-                <td align="center" bgcolor="#FFFFFF"><a href="https://github.com/OpenAMP/open-amp">openAMP*</a></td>
-                <td align="center" bgcolor="#FFFFFF">RTOS</td>
-              </tr>
-              <tr>
-                <td align="center" bgcolor="#FFFFFF" colspan="2"><a href="https://github.com/spacemit-com/linux">Linux Driver</a></td>
-                <td align="center" bgcolor="#FFFFFF">RTOS Driver</td>
-              </tr>
-            </table>
-          </td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/linux">RS485</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/linux">Modbus</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/linux">CAN-FD</a></td>
+          <td width="25%" align="center">EtherCAT Master Driver</td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/linux">Linux</a></td>
+          <td width="25%" align="center"><a href="https://github.com/spacemit-com/linux">Linux Driver</a></td>
+          <td width="25%" align="center"><a href="https://github.com/OpenAMP/open-amp">OpenAMP</a> *</td>
+          <td width="25%" align="center">RTOS / RTOS Driver</td>
         </tr>
       </table>
     </td>
   </tr>
+  
+  <!-- Hardware Layer -->
   <tr>
-    <td align="center" valign="middle" width="90"><b>HW</b></td>
+    <td align="center"><strong>Hardware</strong></td>
     <td>
       <table width="100%">
         <tr>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">TSN</a></td>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">EtherCAT</a></td>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">Modbus</a></td>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">CAN</a></td>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">RS485</a></td>
-          <td align="center" bgcolor="#BDD7EE"><a href="https://github.com/spacemit-com/docs-chip">Wi-Fi/BLE</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">TSN</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">EtherCAT</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">Modbus</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">CAN</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">RS485</a></td>
+          <td width="16.6%" align="center"><a href="https://github.com/spacemit-com/docs-chip">Wi-Fi/BLE</a></td>
         </tr>
         <tr>
-          <td align="center" bgcolor="#BDD7EE" colspan="3"><a href="https://github.com/spacemit-com/docs-chip"><b>K1</b></a></td>
-          <td align="center" bgcolor="#BDD7EE" colspan="3"><a href="https://github.com/spacemit-com/docs-chip"><b>K3</b></a></td>
+          <td colspan="3" align="center"><a href="https://github.com/spacemit-com/docs-chip"><strong>K1 Chip Platform</strong></a></td>
+          <td colspan="3" align="center"><a href="https://github.com/spacemit-com/docs-chip"><strong>K3 Chip Platform</strong></a></td>
         </tr>
       </table>
     </td>
   </tr>
 </table>
+
 
 
