@@ -210,7 +210,7 @@ A complete robotics compute platform for K3: SLAM, navigation, manipulation, and
         </tr>
         <tr>
           <td align="center" bgcolor="#BDD7EE" colspan="3"><a href="https://github.com/spacemit-com/docs-chip"><b>K1</b></a></td>
-          <td align="center" bgcolor="#BDD7EE" colspan="3"><a href="https://github.com/spacemit-com/docs-chip"><b>K2</b></a></td>
+          <td align="center" bgcolor="#BDD7EE" colspan="3"><a href="https://github.com/spacemit-com/docs-chip"><b>K3</b></a></td>
         </tr>
       </table>
     </td>
