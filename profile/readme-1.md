@@ -15,8 +15,8 @@ K1 · K3 · and the K-series to come.
 
 </div>
 
-> SpacemiT (进迭时空) builds high-performance RISC-V AI CPU for Agent Computer and Robot Computer.
-> 进迭时空，自研高性能RISC-V AI CPU，面向下一代 **Agent Computer 智能体计算机** 与 **Robot Computer 机器人计算机**。
+以 RISC-V 架构数智未来
+专注于研发下一代 RISC-V 架构的高性能 AI CPU 并提供软硬一体优化的计算解决方案
 
 ## Overview
 This organization repo hosts a collection of open-source demo projects for SpacemiT KeyStone K1 / K3 RISC-V AI CPU.
