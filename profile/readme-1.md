@@ -33,10 +33,6 @@ All samples help developers, hardware OEM and system integrators quickly evaluat
 > 机器人计算机：机载自主决策、多模态感知、机器人运动与任务编排
 
 
-## Resources
-- Official Website: https://www.spacemit.com
-- Developer Portal: https://developer.spacemit.com
-- Chip: KeyStone K1 / KeyStone K3 RISC-V AI CPU
 
 ## Get Started
 1. Clone any demo repo from the table above
