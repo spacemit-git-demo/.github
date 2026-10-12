@@ -19,14 +19,6 @@ All samples help developers, hardware OEM and system integrators quickly evaluat
 > 智能体计算机：端侧本地推理、大模型规划、本地知识库、工具调用智能体
 > 机器人计算机：机载自主决策、多模态感知、机器人运动与任务编排
 
-## Repositories
-| Repository | Brief Description |
-| :--- | :--- |
-| [spacemit-k3-llm-infer](https://github.com/spacemit-git-demo/spacemit-k3-llm-infer) | Optimized LLM inference runtime for K3, for Agent & Robot Computer |
-| [spacemit-hpn-stack](https://github.com/spacemit-git-demo/spacemit-hpn-stack) | High-Performance Networking / RDMA stack for RISC-V cluster deployment |
-| [spacemit-accel-specs](https://github.com/spacemit-git-demo/spacemit-accel-specs) | AI accelerator and server hardware standard specifications |
-| [spacemit-riscv-bsp](https://github.com/spacemit-git-demo/spacemit-riscv-bsp) | Linux kernel & board support package for K1 / K3 |
-| [spacemit-agent-runtime](https://github.com/spacemit-git-demo/spacemit-agent-runtime) | Embodied agent demo: LLM planner, vision perception and robot control |
 
 ## Resources
 - Official Website: https://www.spacemit.com
@@ -38,9 +30,3 @@ All samples help developers, hardware OEM and system integrators quickly evaluat
 2. Follow each repository's `README.md` to build and run
 3. Visit developer portal for datasheets, SDK and technical documents
 
-## Community & Contribution
-We welcome issues, feature requests and pull requests, especially use-case feedback for Agent Computer and Robot Computer.
-Please follow the contribution guide in each sub repository.
-
-## License
-Each sub-project uses its own license. Refer to LICENSE file inside each repository.
