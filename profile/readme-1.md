@@ -1,6 +1,19 @@
-# SpacemiT Git Demo
-[![Website](https://img.shields.io/badge/spacemit-www.spacemit.com-blue)](https://www.spacemit.com)
-[![Developer Portal](https://img.shields.io/badge/dev-portal-orange)](https://developer.spacemit.com)
+<div align="center">
+
+<img src="https://files.seeusercontent.com/2026/09/28/7aSv/logosquare1.png" width="200" alt="SpacemiT logo" title="logo.square1.png">
+
+**RISC-V chips for AI at the edge.**
+
+K1 · K3 · and the K-series to come.
+
+[![Linux Mainline](https://img.shields.io/badge/Linux%20Kernel-Mainline-8DC63F?logo=linux&logoColor=white)](https://github.com/spacemit-com/linux/wiki)
+[![Toolchain Mainline](https://img.shields.io/badge/GCC%20%2F%20LLVM-Mainline-8DC63F)](https://github.com/spacemit-com/.github/blob/main/upstream-status/toolchain.md)
+[![Apache 2.0](https://img.shields.io/badge/License-Apache--2.0-AEDC3C)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Forum](https://img.shields.io/badge/Community-forum.spacemit.com-6aa82e)](https://forum.spacemit.com)
+[![RISC-V K1 K3](https://img.shields.io/badge/RISC--V-K1%20%7C%20K3-8DC63F?logo=riscv&logoColor=white)](https://www.spacemit.com)
+
+
+</div>
 
 > SpacemiT (进迭时空) builds high-performance RISC-V AI CPU for Agent Computer and Robot Computer.
 > 进迭时空，自研高性能RISC-V AI CPU，面向下一代 **Agent Computer 智能体计算机** 与 **Robot Computer 机器人计算机**。
