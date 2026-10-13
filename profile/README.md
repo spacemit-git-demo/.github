@@ -2,7 +2,7 @@
 
 <!-- SpacemiT Official Logo -->
 <a href="https://www.spacemit.com">
-  <img src="https://files.seeusercontent.com/2026/09/28/7aSv/logosquare1.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
+  <img src="https://github.com/spacemit-git-demo/.github/blob/main/profile/assets/SpacemiT.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
 </a>
 
 # RISC-V Architecture for Intelligent Future
