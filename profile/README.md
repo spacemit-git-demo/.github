@@ -1,8 +1,8 @@
 <div align="center">
 
 <!-- SpacemiT Official Logo -->
+<img width="158" height="48" alt="image" src="https://github.com/user-attachments/assets/9f104220-8340-42fb-855b-5be095a1fb1a" />
 
-<a href="https://www.spacemit.com"> <img src="https://cdn-resource.spacemit.com/file/officialweb/assets/logo_white.svg" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/> </a>
 
 # RISC-V Architecture for Intelligent Future
 
