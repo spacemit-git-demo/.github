@@ -1,12 +1,11 @@
 <div align="center">
 
 <!-- SpacemiT Official Logo -->
-<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/9f104220-8340-42fb-855b-5be095a1fb1a" />
-
+<a href="https://www.spacemit.com">
+  <img src="https://files.seeusercontent.com/2026/09/28/7aSv/logosquare1.png" alt="SpacemiT Logo" width="260" onerror="this.src='https://www.spacemit.com/favicon.ico'; this.width=64;"/>
+</a>
 
 # RISC-V Architecture for Intelligent Future
-
-
 
 <p align="center">
   <b>Focused on developing next-generation high-performance AI CPUs based on RISC-V architecture and providing integrated hardware-software optimized computing solutions.</b><br>
