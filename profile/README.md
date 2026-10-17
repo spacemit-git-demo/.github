@@ -76,6 +76,10 @@ SpacemiT Robot SDK provides an integrated software stack for robotics developmen
 
 ---
 
+<a href="https://www.spacemit.com">
+  <img src="https://github.com/spacemit-git-demo/.github/blob/main/profile/assets/ai-infra-image2.png"/>
+</a>
+
 ### RISC-V AI CPU
 
 | CPU | Form Factors & Segments | Architecture & Highlights | Primary Repositories |
